@@ -1,0 +1,390 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contanier{
+    width: 100%;
+    margin-top: 15px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+}
+.logo{
+    display: flex;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    color: darkslategrey;
+
+}
+ul{
+    display: flex;
+}
+li{
+    margin: 0% 18px;
+    list-style: none;
+}
+li a{
+    font-size: 20px;
+    font-weight: 800px;
+    color: #007bff;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.2s;
+}
+li a:hover{
+    color: rgb(13, 214, 13);
+    font-size: 30px;
+    font-weight: 700px;
+    text-decoration: underline;
+}
+main{
+    display: flex;
+    width: 100%;
+    
+}
+.herotext{
+    width: 50%;
+    margin: 20px;
+    margin-top: 80px;
+}
+h1{
+   
+    font-size: 45px;
+    font-weight: 100px;
+    letter-spacing: 3px;
+}
+span{
+    color: #32a860;
+}
+h3{
+    margin-top: 10px;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+p{
+   margin-top: 15px;
+   font-family: Verdana, Geneva, 
+   Tahoma, sans-serif;
+}
+button{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 200px;
+    height: 60px;
+    background-color: transparent;
+    border: 1px solid black;
+    
+}
+img{
+    margin-left: 70px;
+}
+.anim{
+    color:#32a860;
+    font-size: 30px;
+    margin-top: 10px;
+}
+/* .donation_box{
+    background-color: rgba(182, 239, 73, .2);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 30px;
+    width: 100%;
+} */
+body{
+    font-family: Poppins-Regular!important;
+}
+.donation_box {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-top: 50px;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .col-12 {
+    width: 100%;
+  }
+
+  .col-sm-12 {
+    width: 100%;
+  }
+
+  .col-md-12 {
+    width: 100%;
+  }
+
+  .col-lg-3 {
+    width: 25%;
+  }
+
+  .col-lg-9 {
+    width: 75%;
+  }
+
+  .donation_box_content {
+    background-color: #fff;
+    padding: 20px;
+  }
+
+  .theme_input {
+    margin-bottom: 10px;
+  }
+
+  .ant-input {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .amount_box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+  .amount_box_selected {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  .donation_box_btn {
+    background-color: #8dc63f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  .donation_box_btn:hover {
+    background-color:#007bff;
+  }
+  .carousel-image{
+    width: 900px;
+    margin-top: 20px;
+    height: 400px;
+  }
+  .sec1{
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+  }
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+h5{
+    text-align: end;
+}
+.cardrow {
+  display: flex;
+  /* justify-content: space-around; */
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.cards {
+  margin: 30PX 10PX;
+  text-align: center;
+  width: 270px;
+  margin-bottom: 20px;
+}
+
+.cards img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.cards h4 {
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.cards button {
+  margin-top: 10px;
+  background-color:#8dc63f;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 70PX;
+}
+  .saylaniserve{
+    display: flex;
+    margin-top: 40px;
+  }
+  .serveimg{
+    width: 80%;
+  }
+  .saylanitext{
+    width: 50%;
+    margin-left: 20px;
+  }
+  .texth3{
+color: #007bff;
+font-size: 20px;
+font-weight: bold;
+  }
+  .slider{
+    text-align: center;
+    margin-top: 50px;
+    background-color:#f7f7f7;
+  }
+  .para{
+    font-size: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  h4{
+    margin-top: 20px;
+    color: #007bff;
+  }
+  h6{
+    color: #32a860;
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+  .socailupdate{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px ;
+    margin-top: 300px;
+  }
+  .updates{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+  .newscard {
+    margin: 0 10px;
+    width: 300px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.newscard img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.newscard-content {
+    padding: 10px;
+}
+
+.newscard-content h3 {
+    margin: 0;
+}
+
+.newscard-content p {
+    margin: 10px 0;
+    font-size: 10px;
+    margin-left: 30px;
+    width: 10%;
+}
+
+.card-content .button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.card-content .button:hover {
+    background-color: #45a049;
+    justify-content: center;
+    margin-left: 30px;
+}
+.newscontanier{
+  display: flex;
+  margin-top: 30px;
+}
+.newsh2{
+  text-align: center;
+  margin: 20px;
+}
+.subscribe-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.subscribe-input {
+  height: 40px;
+  width: 300px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  
+}
+
+.subscribe-button {
+  height: 40px;
+  width: 100px;
+  margin-left: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.subscribe-button:hover {
+  background-color: #45a049;
+}
+.footer {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  margin-top: 20px;
+}
+
+.footer a {
+  color: #666;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
